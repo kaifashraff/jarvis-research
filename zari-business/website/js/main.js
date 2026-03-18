@@ -48,24 +48,24 @@ document.addEventListener('DOMContentLoaded', function() {
             // Validate phone
             const phoneRegex = /^[+]?[\d\s-]{10,}$/;
             if (!phoneRegex.test(formData.phone)) {
-                alert('कृपया सही फ़ोन नंबर डालें');
+                alert('Please enter a valid phone number');
                 return;
             }
             
             // Send to WhatsApp
-            const whatsappMessage = `🌟 नया लीड — Premium Zari Works Website
+            const whatsappMessage = `🌟 NEW LEAD — Premium Zari Works Website
             
-📝 नाम: ${formData.name}
-📞 फ़ोन: ${formData.phone}
-📧 ईमेल: ${formData.email}
-🎯 सेवा: ${formData.service}
-💬 मैसेज: ${formData.message}`;
+📝 Name: ${formData.name}
+📞 Phone: ${formData.phone}
+📧 Email: ${formData.email}
+🎯 Service: ${formData.service}
+💬 Message: ${formData.message}`;
             
             const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(whatsappMessage)}`;
             window.open(whatsappUrl, '_blank');
             
             // Show success message
-            alert('✅ धन्यवाद! आपका मैसेज भेज दिया गया है। हम जल्दी संपर्क करेंगे।');
+            alert('✅ Thank you! Your message has been sent. We will contact you soon.');
             
             // Reset form
             leadForm.reset();
