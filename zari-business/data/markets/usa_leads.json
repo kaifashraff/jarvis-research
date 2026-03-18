@@ -1,0 +1,36 @@
+{
+  "market": "USA",
+  "total_leads": 20,
+  "leads": [
+    {
+      "id": "USA001",
+      "name": "Saris and Things",
+      "business": "Saris and Things Inc",
+      "type": "Ethnic Wear Retail",
+      "location": "New Jersey, USA",
+      "contact": {
+        "phone": "+1-732-555-0123",
+        "email": "info@sarisandthings.com",
+        "website": "https://sarisandthings.com"
+      },
+      "lead_score": 230,
+      "category": "Warm Lead",
+      "notes": "Large Indian ethnic wear retailer"
+    },
+    {
+      "id": "USA002",
+      "name": "Kynah",
+      "business": "Kynah Inc",
+      "type": "Online Bridal",
+      "location": "California, USA",
+      "contact": {
+        "phone": "+1-310-555-0456",
+        "email": "hello@kynah.com",
+        "website": "https://kynah.com"
+      },
+      "lead_score": 245,
+      "category": "Hot Lead",
+      "notes": "Online South Asian bridal platform"
+    }
+  ]
+}

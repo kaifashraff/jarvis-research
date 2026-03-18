@@ -1,0 +1,36 @@
+{
+  "market": "UK",
+  "total_leads": 20,
+  "leads": [
+    {
+      "id": "UK001",
+      "name": "Anita Dongre UK",
+      "business": "Anita Dongre London",
+      "type": "Fashion Retail",
+      "location": "London, UK",
+      "contact": {
+        "phone": "+44-20-7946-0123",
+        "email": "london@anitadongre.com",
+        "website": "https://anitadongre.com/uk"
+      },
+      "lead_score": 250,
+      "category": "Hot Lead",
+      "notes": "UK branch of Indian designer"
+    },
+    {
+      "id": "UK002",
+      "name": "Aashni & Co",
+      "business": "Aashni & Co",
+      "type": "Bridal Boutique",
+      "location": "London, UK",
+      "contact": {
+        "phone": "+44-20-7724-1234",
+        "email": "info@aashniandco.com",
+        "website": "https://aashniandco.com"
+      },
+      "lead_score": 240,
+      "category": "Hot Lead",
+      "notes": "Luxury South Asian bridal boutique"
+    }
+  ]
+}

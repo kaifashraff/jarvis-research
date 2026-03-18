@@ -1,0 +1,44 @@
+{
+  "lead_scoring": {
+    "criteria": {
+      "business_type": {
+        "bridal_wear": 100,
+        "fashion_designer": 90,
+      "ethnic_manufacturer": 85,
+        "export_house": 80,
+        "boutique": 70,
+        "wedding_planner": 65,
+        "retail_shop": 40,
+        "individual_designer": 30
+      },
+      "location": {
+        "mumbai": 100,
+        "delhi": 95,
+        "ahmedabad": 90,
+        "jaipur": 85,
+        "lucknow": 80,
+        "dubai": 95,
+        "london": 85,
+        "new_york": 80
+      },
+      "online_presence": {
+        "website": 20,
+        "instagram": 15,
+        "facebook": 10,
+        "linkedin": 5
+      },
+      "business_size": {
+        "enterprise": 50,
+        "medium": 35,
+        "small": 20,
+        "individual": 10
+      }
+    },
+    "scoring_ranges": {
+      "hot_lead": {"min": 200, "max": 300, "action": "Immediate contact"},
+      "warm_lead": {"min": 150, "max": 199, "action": "Follow up within 3 days"},
+      "cold_lead": {"min": 100, "max": 149, "action": "Add to nurture campaign"},
+      "low_priority": {"min": 0, "max": 99, "action": "Quarterly check-in"}
+    }
+  }
+}

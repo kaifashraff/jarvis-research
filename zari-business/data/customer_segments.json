@@ -1,0 +1,64 @@
+{
+  "customer_segments": {
+    "high_value": {
+      "bridal_wear_brands": {
+        "target_count": 50,
+        "avg_order_value": 750000,
+        "conversion_rate": 0.15,
+        "priority": "P1"
+      },
+      "fashion_designers": {
+        "target_count": 100,
+        "avg_order_value": 350000,
+        "conversion_rate": 0.20,
+        "priority": "P1"
+      },
+      "ethnic_manufacturers": {
+        "target_count": 75,
+        "avg_order_value": 200000,
+        "conversion_rate": 0.25,
+        "priority": "P1"
+      }
+    },
+    "medium_value": {
+      "boutique_owners": {
+        "target_count": 200,
+        "avg_order_value": 100000,
+        "conversion_rate": 0.30,
+        "priority": "P2"
+      },
+      "wedding_planners": {
+        "target_count": 150,
+        "avg_order_value": 150000,
+        "conversion_rate": 0.20,
+        "priority": "P2"
+      },
+      "export_houses": {
+        "target_count": 50,
+        "avg_order_value": 1000000,
+        "conversion_rate": 0.10,
+        "priority": "P2"
+      }
+    },
+    "low_value": {
+      "retail_shops": {
+        "target_count": 500,
+        "avg_order_value": 25000,
+        "conversion_rate": 0.40,
+        "priority": "P3"
+      },
+      "individual_designers": {
+        "target_count": 1000,
+        "avg_order_value": 15000,
+        "conversion_rate": 0.35,
+        "priority": "P3"
+      }
+    }
+  },
+  "market_totals": {
+    "total_target_customers": 2125,
+    "total_potential_revenue": 450000000,
+    "weighted_conversion_rate": 0.28,
+    "expected_revenue": 126000000
+  }
+}

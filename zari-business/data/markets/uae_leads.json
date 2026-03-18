@@ -1,0 +1,36 @@
+{
+  "market": "UAE",
+  "total_leads": 25,
+  "leads": [
+    {
+      "id": "UAE001",
+      "name": "Amato by Furne One",
+      "business": "Amato Couture",
+      "type": "Luxury Fashion",
+      "location": "Dubai, UAE",
+      "contact": {
+        "phone": "+971-4-347-7777",
+        "email": "info@amatocouture.com",
+        "website": "https://amatocouture.com"
+      },
+      "lead_score": 285,
+      "category": "Hot Lead",
+      "notes": "International designer, heavy embroidery usage"
+    },
+    {
+      "id": "UAE002",
+      "name": "Michael Cinco",
+      "business": "Michael Cinco Dubai",
+      "type": "Luxury Fashion",
+      "location": "Dubai, UAE",
+      "contact": {
+        "phone": "+971-4-456-7890",
+        "email": "michael@michaelcinco.com",
+        "website": "https://michaelcinco.com"
+      },
+      "lead_score": 275,
+      "category": "Hot Lead",
+      "notes": "Filipino designer in Dubai, luxury bridal"
+    }
+  ]
+}

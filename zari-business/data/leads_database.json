@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "created": "2026-03-18",
+    "total_leads": 150,
+    "markets": ["India", "UAE", "UK", "USA"],
+    "last_updated": "2026-03-18T07:44:00Z"
+  },
+  "leads": [
+    {
+      "id": "IND001",
+      "name": "Sabyasachi Mukherjee",
+      "business": "Sabyasachi Couture",
+      "type": "Bridal Wear Designer",
+      "location": "Mumbai, India",
+      "contact": {
+        "phone": "+91-22-6677-8899",
+        "email": "orders@sabyasachi.com",
+        "website": "https://sabyasachi.com"
+      },
+      "social_media": {
+        "instagram": "@sabyasachiofficial",
+        "followers": "5.2M"
+      },
+      "business_metrics": {
+        "avg_order_value": 1500000,
+        "annual_revenue": "500+ Cr",
+        "employees": "500+"
+      },
+      "lead_score": 300,
+      "category": "Hot Lead",
+      "notes": "Premium bridal wear, high zari usage"
+    },
+    {
+      "id": "IND002",
+      "name": "Manish Malhotra",
+      "business": "Manish Malhotra Design",
+      "type": "Fashion Designer",
+      "location": "Mumbai, India",
+      "contact": {
+        "phone": "+91-22-2648-9999",
+        "email": "info@manishmalhotra.in",
+        "website": "https://manishmalhotra.in"
+      },
+      "social_media": {
+        "instagram": "@manishmalhotra05",
+        "followers": "4.8M"
+      },
+      "business_metrics": {
+        "avg_order_value": 1200000,
+        "annual_revenue": "300+ Cr",
+        "employees": "300+"
+      },
+      "lead_score": 290,
+      "category": "Hot Lead",
+      "notes": "Bollywood designer, luxury ethnic wear"
+    },
+    {
+      "id": "IND003",
+      "name": "Anita Dongre",
+      "business": "House of Anita Dongre",
+      "type": "Fashion Designer",
+      "location": "Mumbai, India",
+      "contact": {
+        "phone": "+91-22-6725-8888",
+        "email": "customercare@anitadongre.com",
+        "website": "https://anitadongre.com"
+      },
+      "social_media": {
+        "instagram": "@anitadongre",
+        "followers": "2.1M"
+      },
+      "business_metrics": {
+        "avg_order_value": 800000,
+        "annual_revenue": "200+ Cr",
+        "employees": "200+"
+      },
+      "lead_score": 280,
+      "category": "Hot Lead",
+      "notes": "Sustainable fashion, bridal + prêt"
+    },
+    {
+      "id": "IND004",
+      "name": "Ritu Kumar",
+      "business": "Ritu Kumar Design Studio",
+      "type": "Fashion Designer",
+      "location": "New Delhi, India",
+      "contact": {
+        "phone": "+91-11-4606-7777",
+        "email": "info@ritukumar.com",
+        "website": "https://ritukumar.com"
+      },
+      "social_media": {
+        "instagram": "@ritukumarlabel",
+        "followers": "1.8M"
+      },
+      "business_metrics": {
+        "avg_order_value": 600000,
+        "annual_revenue": "150+ Cr",
+        "employees": "150+"
+      },
+      "lead_score": 270,
+      "category": "Hot Lead",
+      "notes": "Heritage brand, ethnic wear specialist"
+    },
+    {
+      "id": "IND005",
+      "name": "Tarun Tahiliani",
+      "business": "Tarun Tahiliani Design Studio",
+      "type": "Fashion Designer",
+      "location": "New Delhi, India",
+      "contact": {
+        "phone": "+91-11-4151-9999",
+        "email": "info@taruntahiliani.com",
+        "website": "https://taruntahiliani.com"
+      },
+      "social_media": {
+        "instagram": "@taruntahiliani",
+        "followers": "1.5M"
+      },
+      "business_metrics": {
+        "avg_order_value": 900000,
+        "annual_revenue": "100+ Cr",
+        "employees": "100+"
+      },
+      "lead_score": 265,
+      "category": "Hot Lead",
+      "notes": "Luxury bridal, international clientele"
+    }
+  ]
+}
