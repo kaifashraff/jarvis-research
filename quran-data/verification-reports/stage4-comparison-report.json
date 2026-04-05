@@ -1,0 +1,1108 @@
+{
+  "comparison_matrix": {
+    "conventions_tested": [
+      "simple",
+      "uthmani_no_diacritics",
+      "full_normalization"
+    ],
+    "letter_count_matrix": {
+      "convention": [
+        "simple",
+        "uthmani_no_diacritics",
+        "full_normalization"
+      ],
+      "uthmani_raw": [
+        1024,
+        1024,
+        1024
+      ],
+      "simple_raw": [
+        1024,
+        1024,
+        1024
+      ],
+      "normalized_counts": [
+        1087,
+        1087,
+        1087
+      ],
+      "vs_simple_difference": [
+        0,
+        0,
+        0
+      ],
+      "vs_simple_difference_normalized": [
+        63,
+        63,
+        63
+      ]
+    },
+    "pattern_match_matrix": {
+      "convention": [
+        "simple",
+        "uthmani_no_diacritics",
+        "full_normalization"
+      ],
+      "pattern_matches_simple": [
+        false,
+        false,
+        false
+      ]
+    },
+    "robustness_scores": {
+      "simple": 0.482,
+      "uthmani_no_diacritics": 0.482,
+      "full_normalization": 0.482
+    },
+    "summary": {
+      "conventions_with_perfect_match": 0,
+      "total_conventions": 3,
+      "perfect_match_rate": 0.0
+    }
+  },
+  "recommendation": {
+    "recommendation": "NOT_RECOMMENDED",
+    "best_convention": "simple",
+    "best_score": 0.482,
+    "rationale": "The simple convention achieves only 48.2% robustness. This convention introduces substantial pattern distortion and count differences. Avoid for Code 19 verification work.",
+    "caveats": [
+      "Normalization choices can significantly affect pattern detection results.",
+      "Always explicitly state your normalization convention in publications.",
+      "Test multiple conventions to ensure robustness of findings.",
+      "Code 19 patterns that only appear in specific normalizations should be treated with skepticism."
+    ]
+  },
+  "sensitivity_analysis": {
+    "highly_sensitive_patterns": [
+      "simple",
+      "uthmani_no_diacritics",
+      "full_normalization"
+    ],
+    "moderately_sensitive_patterns": [],
+    "robust_patterns": [],
+    "normalization_dependent_findings": [
+      {
+        "convention": "simple",
+        "issue": "Pattern mismatch: 0 positions differ"
+      },
+      {
+        "convention": "uthmani_no_diacritics",
+        "issue": "Pattern mismatch: 0 positions differ"
+      },
+      {
+        "convention": "full_normalization",
+        "issue": "Pattern mismatch: 0 positions differ"
+      }
+    ]
+  },
+  "raw_results": [
+    {
+      "normalization_convention": "simple",
+      "normalization_rules": {
+        "name": "simple",
+        "diacritics_removed": true,
+        "hamza_normalized": true,
+        "alif_standardized": true,
+        "ta_marbuta_as_heh": true,
+        "basmala_included": true,
+        "word_boundaries_preserved": true,
+        "ligatures_handled": "count_as_single"
+      },
+      "letter_counts": {
+        "uthmani_raw": 1024,
+        "simple_raw": 1024,
+        "uthmani_normalized": 1087,
+        "difference_uthmani_vs_simple": 0,
+        "difference_normalized_vs_simple": 63
+      },
+      "word_counts": {
+        "uthmani": 260,
+        "simple": 260
+      },
+      "pattern_match": {
+        "patterns_match_after_normalization": false,
+        "mismatched_positions": 0,
+        "total_positions_checked": 1024
+      },
+      "letter_comparison": [
+        {
+          "position": 1,
+          "uthmani_letter": "ب",
+          "simple_letter": "ب",
+          "match": true
+        },
+        {
+          "position": 2,
+          "uthmani_letter": "س",
+          "simple_letter": "س",
+          "match": true
+        },
+        {
+          "position": 3,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 4,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 5,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 6,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 7,
+          "uthmani_letter": "ه",
+          "simple_letter": "ه",
+          "match": true
+        },
+        {
+          "position": 8,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 9,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 10,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 11,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 12,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 13,
+          "uthmani_letter": "ن",
+          "simple_letter": "ن",
+          "match": true
+        },
+        {
+          "position": 14,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 15,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 16,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 17,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 18,
+          "uthmani_letter": "ي",
+          "simple_letter": "ي",
+          "match": true
+        },
+        {
+          "position": 19,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 20,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 21,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 22,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 23,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 24,
+          "uthmani_letter": "د",
+          "simple_letter": "د",
+          "match": true
+        },
+        {
+          "position": 25,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 26,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 27,
+          "uthmani_letter": "ه",
+          "simple_letter": "ه",
+          "match": true
+        },
+        {
+          "position": 28,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 29,
+          "uthmani_letter": "ب",
+          "simple_letter": "ب",
+          "match": true
+        },
+        {
+          "position": 30,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 31,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 32,
+          "uthmani_letter": "ع",
+          "simple_letter": "ع",
+          "match": true
+        },
+        {
+          "position": 33,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 34,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 35,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 36,
+          "uthmani_letter": "ي",
+          "simple_letter": "ي",
+          "match": true
+        },
+        {
+          "position": 37,
+          "uthmani_letter": "ن",
+          "simple_letter": "ن",
+          "match": true
+        },
+        {
+          "position": 38,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 39,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 40,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 41,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 42,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 43,
+          "uthmani_letter": "ن",
+          "simple_letter": "ن",
+          "match": true
+        },
+        {
+          "position": 44,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 45,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 46,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 47,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 48,
+          "uthmani_letter": "ي",
+          "simple_letter": "ي",
+          "match": true
+        },
+        {
+          "position": 49,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 50,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        }
+      ],
+      "discrepancies_found": false,
+      "normalization_effect": {
+        "count_difference_introduced": 63,
+        "pattern_correction": "degraded"
+      }
+    },
+    {
+      "normalization_convention": "uthmani_no_diacritics",
+      "normalization_rules": {
+        "name": "uthmani_no_diacritics",
+        "diacritics_removed": true,
+        "hamza_normalized": true,
+        "alif_standardized": true,
+        "ta_marbuta_as_heh": true,
+        "basmala_included": true,
+        "word_boundaries_preserved": true,
+        "ligatures_handled": "count_as_single"
+      },
+      "letter_counts": {
+        "uthmani_raw": 1024,
+        "simple_raw": 1024,
+        "uthmani_normalized": 1087,
+        "difference_uthmani_vs_simple": 0,
+        "difference_normalized_vs_simple": 63
+      },
+      "word_counts": {
+        "uthmani": 260,
+        "simple": 260
+      },
+      "pattern_match": {
+        "patterns_match_after_normalization": false,
+        "mismatched_positions": 0,
+        "total_positions_checked": 1024
+      },
+      "letter_comparison": [
+        {
+          "position": 1,
+          "uthmani_letter": "ب",
+          "simple_letter": "ب",
+          "match": true
+        },
+        {
+          "position": 2,
+          "uthmani_letter": "س",
+          "simple_letter": "س",
+          "match": true
+        },
+        {
+          "position": 3,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 4,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 5,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 6,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 7,
+          "uthmani_letter": "ه",
+          "simple_letter": "ه",
+          "match": true
+        },
+        {
+          "position": 8,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 9,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 10,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 11,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 12,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 13,
+          "uthmani_letter": "ن",
+          "simple_letter": "ن",
+          "match": true
+        },
+        {
+          "position": 14,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 15,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 16,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 17,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 18,
+          "uthmani_letter": "ي",
+          "simple_letter": "ي",
+          "match": true
+        },
+        {
+          "position": 19,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 20,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 21,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 22,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 23,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 24,
+          "uthmani_letter": "د",
+          "simple_letter": "د",
+          "match": true
+        },
+        {
+          "position": 25,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 26,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 27,
+          "uthmani_letter": "ه",
+          "simple_letter": "ه",
+          "match": true
+        },
+        {
+          "position": 28,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 29,
+          "uthmani_letter": "ب",
+          "simple_letter": "ب",
+          "match": true
+        },
+        {
+          "position": 30,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 31,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 32,
+          "uthmani_letter": "ع",
+          "simple_letter": "ع",
+          "match": true
+        },
+        {
+          "position": 33,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 34,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 35,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 36,
+          "uthmani_letter": "ي",
+          "simple_letter": "ي",
+          "match": true
+        },
+        {
+          "position": 37,
+          "uthmani_letter": "ن",
+          "simple_letter": "ن",
+          "match": true
+        },
+        {
+          "position": 38,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 39,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 40,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 41,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 42,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 43,
+          "uthmani_letter": "ن",
+          "simple_letter": "ن",
+          "match": true
+        },
+        {
+          "position": 44,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 45,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 46,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 47,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 48,
+          "uthmani_letter": "ي",
+          "simple_letter": "ي",
+          "match": true
+        },
+        {
+          "position": 49,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 50,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        }
+      ],
+      "discrepancies_found": false,
+      "normalization_effect": {
+        "count_difference_introduced": 63,
+        "pattern_correction": "degraded"
+      }
+    },
+    {
+      "normalization_convention": "full_normalization",
+      "normalization_rules": {
+        "name": "full_normalization",
+        "diacritics_removed": true,
+        "hamza_normalized": true,
+        "alif_standardized": true,
+        "ta_marbuta_as_heh": true,
+        "basmala_included": true,
+        "word_boundaries_preserved": true,
+        "ligatures_handled": "count_as_single"
+      },
+      "letter_counts": {
+        "uthmani_raw": 1024,
+        "simple_raw": 1024,
+        "uthmani_normalized": 1087,
+        "difference_uthmani_vs_simple": 0,
+        "difference_normalized_vs_simple": 63
+      },
+      "word_counts": {
+        "uthmani": 260,
+        "simple": 260
+      },
+      "pattern_match": {
+        "patterns_match_after_normalization": false,
+        "mismatched_positions": 0,
+        "total_positions_checked": 1024
+      },
+      "letter_comparison": [
+        {
+          "position": 1,
+          "uthmani_letter": "ب",
+          "simple_letter": "ب",
+          "match": true
+        },
+        {
+          "position": 2,
+          "uthmani_letter": "س",
+          "simple_letter": "س",
+          "match": true
+        },
+        {
+          "position": 3,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 4,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 5,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 6,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 7,
+          "uthmani_letter": "ه",
+          "simple_letter": "ه",
+          "match": true
+        },
+        {
+          "position": 8,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 9,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 10,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 11,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 12,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 13,
+          "uthmani_letter": "ن",
+          "simple_letter": "ن",
+          "match": true
+        },
+        {
+          "position": 14,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 15,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 16,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 17,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 18,
+          "uthmani_letter": "ي",
+          "simple_letter": "ي",
+          "match": true
+        },
+        {
+          "position": 19,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 20,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 21,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 22,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 23,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 24,
+          "uthmani_letter": "د",
+          "simple_letter": "د",
+          "match": true
+        },
+        {
+          "position": 25,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 26,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 27,
+          "uthmani_letter": "ه",
+          "simple_letter": "ه",
+          "match": true
+        },
+        {
+          "position": 28,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 29,
+          "uthmani_letter": "ب",
+          "simple_letter": "ب",
+          "match": true
+        },
+        {
+          "position": 30,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 31,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 32,
+          "uthmani_letter": "ع",
+          "simple_letter": "ع",
+          "match": true
+        },
+        {
+          "position": 33,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 34,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 35,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 36,
+          "uthmani_letter": "ي",
+          "simple_letter": "ي",
+          "match": true
+        },
+        {
+          "position": 37,
+          "uthmani_letter": "ن",
+          "simple_letter": "ن",
+          "match": true
+        },
+        {
+          "position": 38,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 39,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 40,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 41,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 42,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 43,
+          "uthmani_letter": "ن",
+          "simple_letter": "ن",
+          "match": true
+        },
+        {
+          "position": 44,
+          "uthmani_letter": "ا",
+          "simple_letter": "ا",
+          "match": true
+        },
+        {
+          "position": 45,
+          "uthmani_letter": "ل",
+          "simple_letter": "ل",
+          "match": true
+        },
+        {
+          "position": 46,
+          "uthmani_letter": "ر",
+          "simple_letter": "ر",
+          "match": true
+        },
+        {
+          "position": 47,
+          "uthmani_letter": "ح",
+          "simple_letter": "ح",
+          "match": true
+        },
+        {
+          "position": 48,
+          "uthmani_letter": "ي",
+          "simple_letter": "ي",
+          "match": true
+        },
+        {
+          "position": 49,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        },
+        {
+          "position": 50,
+          "uthmani_letter": "م",
+          "simple_letter": "م",
+          "match": true
+        }
+      ],
+      "discrepancies_found": false,
+      "normalization_effect": {
+        "count_difference_introduced": 63,
+        "pattern_correction": "degraded"
+      }
+    }
+  ]
+}

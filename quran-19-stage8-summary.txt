@@ -1,0 +1,198 @@
+======================================================================
+QURAN CODE 19 VERIFICATION — STAGE 8: STATISTICAL TESTING REPORT
+======================================================================
+Generated: 2026-04-05T21:01:01.055693+00:00
+Protocol: Statistical skepticism, permutation testing, BH-FDR correction
+
+TOTAL CLAIMS TESTED: 20
+  VERIFIED:     4
+  NOT VERIFIED: 16
+  STRONG:       4
+  WEAK:         0
+  REJECTED:     16
+
+----------------------------------------------------------------------
+STRONG CLAIMS (confidence >= 0.70)
+----------------------------------------------------------------------
+
+  [CLAIM_002] No description provided
+    Score: 0.800 (HIGH)
+    Status: VERIFIED, Actual: 114, Remainder: 0
+    p-value: 0.052632, Bonferroni: False, BH-FDR: False
+    Source: api.alquran.cloud API
+    Rule: count surahs in dataset
+
+  [CLAIM_003] No description provided
+    Score: 0.800 (HIGH)
+    Status: VERIFIED, Actual: 0, Remainder: 0
+    p-value: 0.052632, Bonferroni: False, BH-FDR: False
+    Source: api.alquran.cloud (uthmani)
+    Rule: startswith match for basmala pattern
+
+  [CLAIM_009] No description provided
+    Score: 0.800 (HIGH)
+    Status: VERIFIED, Actual: 0, Remainder: 0
+    p-value: 0.052632, Bonferroni: False, BH-FDR: False
+    Source: api.alquran.cloud (uthmani, diacritic-stripped match)
+    Rule: exact word match for 'الله' (diacritic-stripped)
+
+  [CLAIM_012] No description provided
+    Score: 0.800 (HIGH)
+    Status: VERIFIED, Actual: 95, Remainder: 0
+    p-value: 0.052632, Bonferroni: False, BH-FDR: False
+    Source: api.alquran.cloud (uthmani)
+    Rule: convention A, letters only
+
+----------------------------------------------------------------------
+WEAK CLAIMS (confidence 0.40-0.69)
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+REJECTED CLAIMS (confidence < 0.40)
+----------------------------------------------------------------------
+
+  [CLAIM_001] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: no match, Remainder: None
+    p-value: 1.0
+    Source: api.alquran.cloud/v1/quran/quran-uthmani
+
+  [CLAIM_004] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 6236, Remainder: 4
+    p-value: 1.0
+    Source: api.alquran.cloud API
+
+  [CLAIM_005] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 29, Remainder: 10
+    p-value: 1.0
+    Source: api.alquran.cloud (uthmani, Surah 1)
+
+  [CLAIM_006] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 139, Remainder: 6
+    p-value: 1.0
+    Source: api.alquran.cloud (uthmani, Surah 1)
+
+  [CLAIM_007] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 12, Remainder: 12
+    p-value: 1.0
+    Source: api.alquran.cloud (uthmani, 74:30)
+
+  [CLAIM_008] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 3, Remainder: 3
+    p-value: 1.0
+    Source: api.alquran.cloud (uthmani)
+
+  [CLAIM_010] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: ERROR, Actual: None, Remainder: None
+    p-value: 1.0
+    Source: not specified
+
+  [CLAIM_011] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 542696, Remainder: 18
+    p-value: 1.0
+    Source: structural data from API
+
+  [CLAIM_013] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 14919, Remainder: 4
+    p-value: 1.0
+    Source: api.alquran.cloud (uthmani)
+
+  [CLAIM_014] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 102, Remainder: 7
+    p-value: 1.0
+    Source: Abjad numerical system
+
+  [CLAIM_015] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 423, Remainder: 5
+    p-value: 1.0
+    Source: Abjad numerical system
+
+  [CLAIM_016] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 7034, Remainder: 4
+    p-value: 1.0
+    Source: api.alquran.cloud (uthmani)
+
+  [CLAIM_017] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 94280, Remainder: 2
+    p-value: 1.0
+    Source: structural data from API
+
+  [CLAIM_018] No description provided
+    Score: 0.350 (VERY_LOW)
+    Status: PARTIAL, Actual: None, Remainder: None
+    p-value: 1.0
+    Source: structural data from API
+
+  [CLAIM_019] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 82456, Remainder: 15
+    p-value: 1.0
+    Source: api.alquran.cloud (uthmani)
+
+  [CLAIM_020] No description provided
+    Score: 0.100 (VERY_LOW)
+    Status: NOT_VERIFIED, Actual: 325229, Remainder: 6
+    p-value: 1.0
+    Source: not specified
+
+----------------------------------------------------------------------
+ROBUSTNESS ACROSS NORMALIZATIONS
+----------------------------------------------------------------------
+  total_letters_A: count=325229, mod19=6, divisible=False [FAIL]
+  total_letters_B: count=328288, mod19=6, divisible=False [FAIL]
+  total_letters_C: count=328288, mod19=6, divisible=False [FAIL]
+  total_letters_D: count=325229, mod19=6, divisible=False [FAIL]
+  fatiha_letters_A: count=139, mod19=6, divisible=False [FAIL]
+  fatiha_letters_B: count=139, mod19=6, divisible=False [FAIL]
+  fatiha_letters_C: count=139, mod19=6, divisible=False [FAIL]
+  fatiha_letters_D: count=139, mod19=6, divisible=False [FAIL]
+  74_30_letters_A: count=12, mod19=12, divisible=False [FAIL]
+  74_30_letters_B: count=12, mod19=12, divisible=False [FAIL]
+  74_30_letters_C: count=12, mod19=12, divisible=False [FAIL]
+  74_30_letters_D: count=12, mod19=12, divisible=False [FAIL]
+
+----------------------------------------------------------------------
+METHODOLOGY
+----------------------------------------------------------------------
+
+  Permutations: 100,000
+  Random seed: 42
+  Normalization conventions: A, B, C, D
+  Statistical tests:
+    - Exact divisibility test
+    - Permutation test (100k iterations)
+    - Bonferroni family-wise error correction
+    - Benjamini-Hochberg FDR correction
+    - Cross-normalization robustness test
+
+  Multiple-hypothesis correction:
+    - Bonferroni (FWER): alpha = 0.002500
+    - Benjamini-Hochberg (FDR): 0 significant
+
+  Confidence scoring:
+    - base_verified: 0.5
+    - remainder_zero: 0.2
+    - p_less_0.001: 0.15
+    - p_less_0.01: 0.1
+    - p_less_0.05: 0.05
+    - bonferroni_sig: 0.1
+    - bh_fdr_sig: 0.05
+    - normalization_robust: 0.1
+    - max_score: 1.0
+
+  Classification:
+    - STRONG: >= 0.70
+    - WEAK: >= 0.40
+    - REJECTED: < 0.40

@@ -1,0 +1,75 @@
+{
+  "dataset_info": {
+    "uthmani_length": 2287,
+    "simple_length": 2287,
+    "uthmani_letters": 1024,
+    "simple_letters": 1024
+  },
+  "pattern_tests": {
+    "word_count_surah_1": {
+      "description": "Surah Al-Fatiha word count",
+      "uthmani_result": 0,
+      "simple_result": 0,
+      "match": true,
+      "difference": 0
+    },
+    "letter_count_basmala": {
+      "description": "Letters in Basmala",
+      "uthmani_result": 0,
+      "simple_result": 0,
+      "match": true,
+      "difference": 0
+    },
+    "allah_count": {
+      "description": "Count of 'Allah'",
+      "uthmani_result": 0,
+      "simple_result": 0,
+      "match": true,
+      "difference": 0
+    },
+    "rahmaan_count": {
+      "description": "Count of 'Ar-Rahman'",
+      "uthmani_result": 0,
+      "simple_result": 0,
+      "match": true,
+      "difference": 0
+    },
+    "raheem_count": {
+      "description": "Count of 'Ar-Raheem'",
+      "uthmani_result": 0,
+      "simple_result": 0,
+      "match": true,
+      "difference": 0
+    },
+    "word_count_total": {
+      "description": "Total word count",
+      "uthmani_result": 937,
+      "simple_result": 937,
+      "match": true,
+      "difference": 0
+    },
+    "unique_words": {
+      "description": "Unique word count",
+      "uthmani_result": 76,
+      "simple_result": 76,
+      "match": true,
+      "difference": 0
+    }
+  },
+  "normalization_sensitivity": {
+    "pattern_match_rate": 1.0,
+    "average_difference": 0.0,
+    "highly_sensitive_patterns": [],
+    "robust_patterns": [
+      "word_count_surah_1",
+      "letter_count_basmala",
+      "allah_count",
+      "rahmaan_count",
+      "raheem_count",
+      "word_count_total",
+      "unique_words"
+    ]
+  },
+  "analysis_timestamp": "2026-04-05 22:15 UTC",
+  "protocol": "truth-first, evidence-only, statistical skepticism"
+}

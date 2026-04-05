@@ -1,0 +1,3542 @@
+{
+  "report_title": "QURAN CODE 19 VERIFICATION — STAGE 8: STATISTICAL TESTING",
+  "timestamp": "2026-04-05T21:01:01.055693+00:00",
+  "protocol": "Statistical skepticism, permutation testing, BH-FDR correction",
+  "total_claims": 20,
+  "summary": {
+    "strong": 4,
+    "weak": 0,
+    "rejected": 16,
+    "verified": 4,
+    "not_verified": 16
+  },
+  "multiple_hypothesis_correction": {
+    "method": "Bonferroni + Benjamini-Hochberg FDR",
+    "n_tests": 20,
+    "bonferroni_alpha": 0.0025,
+    "bonferroni_significant_count": 0,
+    "bh_fdr_significant_count": 0
+  },
+  "robustness_summary": {
+    "total_letters_A": {
+      "convention": "A",
+      "count": 325229,
+      "remainder": 6,
+      "divisible": false
+    },
+    "total_letters_B": {
+      "convention": "B",
+      "count": 328288,
+      "remainder": 6,
+      "divisible": false
+    },
+    "total_letters_C": {
+      "convention": "C",
+      "count": 328288,
+      "remainder": 6,
+      "divisible": false
+    },
+    "total_letters_D": {
+      "convention": "D",
+      "count": 325229,
+      "remainder": 6,
+      "divisible": false
+    },
+    "fatiha_letters_A": {
+      "convention": "A",
+      "count": 139,
+      "remainder": 6,
+      "divisible": false
+    },
+    "fatiha_letters_B": {
+      "convention": "B",
+      "count": 139,
+      "remainder": 6,
+      "divisible": false
+    },
+    "fatiha_letters_C": {
+      "convention": "C",
+      "count": 139,
+      "remainder": 6,
+      "divisible": false
+    },
+    "fatiha_letters_D": {
+      "convention": "D",
+      "count": 139,
+      "remainder": 6,
+      "divisible": false
+    },
+    "74_30_letters_A": {
+      "convention": "A",
+      "count": 12,
+      "remainder": 12,
+      "divisible": false
+    },
+    "74_30_letters_B": {
+      "convention": "B",
+      "count": 12,
+      "remainder": 12,
+      "divisible": false
+    },
+    "74_30_letters_C": {
+      "convention": "C",
+      "count": 12,
+      "remainder": 12,
+      "divisible": false
+    },
+    "74_30_letters_D": {
+      "convention": "D",
+      "count": 12,
+      "remainder": 12,
+      "divisible": false
+    }
+  },
+  "claims": [
+    {
+      "claim_id": "CLAIM_001",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": "no match",
+      "remainder": null,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud/v1/quran/quran-uthmani",
+      "counting_rule": "direct text match for Arabic 'nineteen'",
+      "details": "Surah 74:30 text = عَلَيْهَا تِسْعَةَ عَشَرَ...",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_002",
+      "description": "No description provided",
+      "status": "VERIFIED",
+      "actual_value": 114,
+      "remainder": 0,
+      "p_value": 0.052632,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.8,
+      "classification": "STRONG",
+      "confidence_level": "HIGH",
+      "text_source": "api.alquran.cloud API",
+      "counting_rule": "count surahs in dataset",
+      "details": "Total surahs: 114",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_003",
+      "description": "No description provided",
+      "status": "VERIFIED",
+      "actual_value": 0,
+      "remainder": 0,
+      "p_value": 0.052632,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.8,
+      "classification": "STRONG",
+      "confidence_level": "HIGH",
+      "text_source": "api.alquran.cloud (uthmani)",
+      "counting_rule": "startswith match for basmala pattern",
+      "details": "Basmala occurrences: 0",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_004",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 6236,
+      "remainder": 4,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud API",
+      "counting_rule": "sum ayah_count across all surahs",
+      "details": "Total ayahs: 6236",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_005",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 29,
+      "remainder": 10,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani, Surah 1)",
+      "counting_rule": "whitespace-separated tokens in Surah 1",
+      "details": "Words in Al-Fatiha: 29",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_006",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 139,
+      "remainder": 6,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani, Surah 1)",
+      "counting_rule": "Arabic letters in Surah 1, convention A",
+      "details": "Letters in Al-Fatiha (A): 139, (B): 139, (C): 139, (D): 139",
+      "robustness": [
+        {
+          "convention": "A",
+          "total": 139,
+          "remainder": 6,
+          "quotient": null,
+          "status": "NOT_VERIFIED"
+        },
+        {
+          "convention": "B",
+          "total": 139,
+          "remainder": 6,
+          "quotient": null,
+          "status": "NOT_VERIFIED"
+        },
+        {
+          "convention": "C",
+          "total": 139,
+          "remainder": 6,
+          "quotient": null,
+          "status": "NOT_VERIFIED"
+        },
+        {
+          "convention": "D",
+          "total": 139,
+          "remainder": 6,
+          "quotient": null,
+          "status": "NOT_VERIFIED"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_007",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 12,
+      "remainder": 12,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani, 74:30)",
+      "counting_rule": "Arabic letters in Surah 74:30",
+      "details": "Letters in 74:30 (A): 12, (B): 12, (C): 12, (D): 12",
+      "robustness": {
+        "A": {
+          "total": 12,
+          "remainder": 12,
+          "quotient": null
+        },
+        "B": {
+          "total": 12,
+          "remainder": 12,
+          "quotient": null
+        },
+        "C": {
+          "total": 12,
+          "remainder": 12,
+          "quotient": null
+        },
+        "D": {
+          "total": 12,
+          "remainder": 12,
+          "quotient": null
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_008",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 3,
+      "remainder": 3,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani)",
+      "counting_rule": "regex match for Iqra pattern",
+      "details": "Word 'Iqra' occurs 3 times at 3 positions",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_009",
+      "description": "No description provided",
+      "status": "VERIFIED",
+      "actual_value": 0,
+      "remainder": 0,
+      "p_value": 0.052632,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.8,
+      "classification": "STRONG",
+      "confidence_level": "HIGH",
+      "text_source": "api.alquran.cloud (uthmani, diacritic-stripped match)",
+      "counting_rule": "exact word match for 'الله' (diacritic-stripped)",
+      "details": "Word 'الله' occurs 0 times in Quran",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_010",
+      "description": "No description provided",
+      "status": "ERROR",
+      "actual_value": null,
+      "remainder": null,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "not specified",
+      "counting_rule": "not specified",
+      "details": "No word specified",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_011",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 542696,
+      "remainder": 18,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "structural data from API",
+      "counting_rule": "sum(surah_number + verse_number) for all ayahs",
+      "details": "Sum of surah+verse numbers: 542696",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_012",
+      "description": "No description provided",
+      "status": "VERIFIED",
+      "actual_value": 95,
+      "remainder": 0,
+      "p_value": 0.052632,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.8,
+      "classification": "STRONG",
+      "confidence_level": "HIGH",
+      "text_source": "api.alquran.cloud (uthmani)",
+      "counting_rule": "convention A, letters only",
+      "details": "Letters: 95, remainder mod 19: 0",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_013",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 14919,
+      "remainder": 4,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani)",
+      "counting_rule": "unique whitespace tokens after diacritic removal",
+      "details": "Unique words (diacritic-stripped): 14919",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_014",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 102,
+      "remainder": 7,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "Abjad numerical system",
+      "counting_rule": "standard Abjad values for Arabic letters",
+      "details": "Gematria of 'بسم' = 102, 102/19 = 5.37",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_015",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 423,
+      "remainder": 5,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "Abjad numerical system",
+      "counting_rule": "standard Abjad values for Arabic letters",
+      "details": "Gematria of 'كتاب' = 423, 423/19 = 22.26",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_016",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 7034,
+      "remainder": 4,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani)",
+      "counting_rule": "exact character match for 'ق' in Uthmani text",
+      "details": "Letter 'ق' occurs 7034 times in Quran",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_017",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 94280,
+      "remainder": 2,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "structural data from API",
+      "counting_rule": "sum of decimal digits of all surah_numbers and verse_numbers",
+      "details": "Sum of all digits in surah:verse numbers: 94280",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_018",
+      "description": "No description provided",
+      "status": "PARTIAL",
+      "actual_value": null,
+      "remainder": null,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.35,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "structural data from API",
+      "counting_rule": "surahs grouped by parity of ayah_count",
+      "details": "Surahs with odd verses: 54, even verses: 60",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_019",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 82456,
+      "remainder": 15,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani)",
+      "counting_rule": "whitespace-separated tokens, all surahs",
+      "details": "Total words: 82456",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_020",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 325229,
+      "remainder": 6,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "not specified",
+      "counting_rule": "not specified",
+      "details": "Total letters (convention D): 325229",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    }
+  ],
+  "strong_claims": [
+    {
+      "claim_id": "CLAIM_002",
+      "description": "No description provided",
+      "status": "VERIFIED",
+      "actual_value": 114,
+      "remainder": 0,
+      "p_value": 0.052632,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.8,
+      "classification": "STRONG",
+      "confidence_level": "HIGH",
+      "text_source": "api.alquran.cloud API",
+      "counting_rule": "count surahs in dataset",
+      "details": "Total surahs: 114",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_003",
+      "description": "No description provided",
+      "status": "VERIFIED",
+      "actual_value": 0,
+      "remainder": 0,
+      "p_value": 0.052632,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.8,
+      "classification": "STRONG",
+      "confidence_level": "HIGH",
+      "text_source": "api.alquran.cloud (uthmani)",
+      "counting_rule": "startswith match for basmala pattern",
+      "details": "Basmala occurrences: 0",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_009",
+      "description": "No description provided",
+      "status": "VERIFIED",
+      "actual_value": 0,
+      "remainder": 0,
+      "p_value": 0.052632,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.8,
+      "classification": "STRONG",
+      "confidence_level": "HIGH",
+      "text_source": "api.alquran.cloud (uthmani, diacritic-stripped match)",
+      "counting_rule": "exact word match for 'الله' (diacritic-stripped)",
+      "details": "Word 'الله' occurs 0 times in Quran",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_012",
+      "description": "No description provided",
+      "status": "VERIFIED",
+      "actual_value": 95,
+      "remainder": 0,
+      "p_value": 0.052632,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.8,
+      "classification": "STRONG",
+      "confidence_level": "HIGH",
+      "text_source": "api.alquran.cloud (uthmani)",
+      "counting_rule": "convention A, letters only",
+      "details": "Letters: 95, remainder mod 19: 0",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    }
+  ],
+  "weak_claims": [],
+  "rejected_claims": [
+    {
+      "claim_id": "CLAIM_001",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": "no match",
+      "remainder": null,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud/v1/quran/quran-uthmani",
+      "counting_rule": "direct text match for Arabic 'nineteen'",
+      "details": "Surah 74:30 text = عَلَيْهَا تِسْعَةَ عَشَرَ...",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_004",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 6236,
+      "remainder": 4,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud API",
+      "counting_rule": "sum ayah_count across all surahs",
+      "details": "Total ayahs: 6236",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_005",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 29,
+      "remainder": 10,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani, Surah 1)",
+      "counting_rule": "whitespace-separated tokens in Surah 1",
+      "details": "Words in Al-Fatiha: 29",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_006",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 139,
+      "remainder": 6,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani, Surah 1)",
+      "counting_rule": "Arabic letters in Surah 1, convention A",
+      "details": "Letters in Al-Fatiha (A): 139, (B): 139, (C): 139, (D): 139",
+      "robustness": [
+        {
+          "convention": "A",
+          "total": 139,
+          "remainder": 6,
+          "quotient": null,
+          "status": "NOT_VERIFIED"
+        },
+        {
+          "convention": "B",
+          "total": 139,
+          "remainder": 6,
+          "quotient": null,
+          "status": "NOT_VERIFIED"
+        },
+        {
+          "convention": "C",
+          "total": 139,
+          "remainder": 6,
+          "quotient": null,
+          "status": "NOT_VERIFIED"
+        },
+        {
+          "convention": "D",
+          "total": 139,
+          "remainder": 6,
+          "quotient": null,
+          "status": "NOT_VERIFIED"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_007",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 12,
+      "remainder": 12,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani, 74:30)",
+      "counting_rule": "Arabic letters in Surah 74:30",
+      "details": "Letters in 74:30 (A): 12, (B): 12, (C): 12, (D): 12",
+      "robustness": {
+        "A": {
+          "total": 12,
+          "remainder": 12,
+          "quotient": null
+        },
+        "B": {
+          "total": 12,
+          "remainder": 12,
+          "quotient": null
+        },
+        "C": {
+          "total": 12,
+          "remainder": 12,
+          "quotient": null
+        },
+        "D": {
+          "total": 12,
+          "remainder": 12,
+          "quotient": null
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_008",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 3,
+      "remainder": 3,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani)",
+      "counting_rule": "regex match for Iqra pattern",
+      "details": "Word 'Iqra' occurs 3 times at 3 positions",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_010",
+      "description": "No description provided",
+      "status": "ERROR",
+      "actual_value": null,
+      "remainder": null,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "not specified",
+      "counting_rule": "not specified",
+      "details": "No word specified",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_011",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 542696,
+      "remainder": 18,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "structural data from API",
+      "counting_rule": "sum(surah_number + verse_number) for all ayahs",
+      "details": "Sum of surah+verse numbers: 542696",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_013",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 14919,
+      "remainder": 4,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani)",
+      "counting_rule": "unique whitespace tokens after diacritic removal",
+      "details": "Unique words (diacritic-stripped): 14919",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_014",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 102,
+      "remainder": 7,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "Abjad numerical system",
+      "counting_rule": "standard Abjad values for Arabic letters",
+      "details": "Gematria of 'بسم' = 102, 102/19 = 5.37",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_015",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 423,
+      "remainder": 5,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "Abjad numerical system",
+      "counting_rule": "standard Abjad values for Arabic letters",
+      "details": "Gematria of 'كتاب' = 423, 423/19 = 22.26",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_016",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 7034,
+      "remainder": 4,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani)",
+      "counting_rule": "exact character match for 'ق' in Uthmani text",
+      "details": "Letter 'ق' occurs 7034 times in Quran",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_017",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 94280,
+      "remainder": 2,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "structural data from API",
+      "counting_rule": "sum of decimal digits of all surah_numbers and verse_numbers",
+      "details": "Sum of all digits in surah:verse numbers: 94280",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_018",
+      "description": "No description provided",
+      "status": "PARTIAL",
+      "actual_value": null,
+      "remainder": null,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.35,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "structural data from API",
+      "counting_rule": "surahs grouped by parity of ayah_count",
+      "details": "Surahs with odd verses: 54, even verses: 60",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_019",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 82456,
+      "remainder": 15,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "api.alquran.cloud (uthmani)",
+      "counting_rule": "whitespace-separated tokens, all surahs",
+      "details": "Total words: 82456",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    },
+    {
+      "claim_id": "CLAIM_020",
+      "description": "No description provided",
+      "status": "NOT_VERIFIED",
+      "actual_value": 325229,
+      "remainder": 6,
+      "p_value": 1.0,
+      "bonferroni_significant": false,
+      "bh_fdr_significant": false,
+      "confidence_score": 0.1,
+      "classification": "REJECTED",
+      "confidence_level": "VERY_LOW",
+      "text_source": "not specified",
+      "counting_rule": "not specified",
+      "details": "Total letters (convention D): 325229",
+      "robustness": {
+        "total_letters_A": {
+          "convention": "A",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_B": {
+          "convention": "B",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_C": {
+          "convention": "C",
+          "count": 328288,
+          "remainder": 6,
+          "divisible": false
+        },
+        "total_letters_D": {
+          "convention": "D",
+          "count": 325229,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_A": {
+          "convention": "A",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_B": {
+          "convention": "B",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_C": {
+          "convention": "C",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "fatiha_letters_D": {
+          "convention": "D",
+          "count": 139,
+          "remainder": 6,
+          "divisible": false
+        },
+        "74_30_letters_A": {
+          "convention": "A",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_B": {
+          "convention": "B",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_C": {
+          "convention": "C",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        },
+        "74_30_letters_D": {
+          "convention": "D",
+          "count": 12,
+          "remainder": 12,
+          "divisible": false
+        }
+      }
+    }
+  ],
+  "methodology": {
+    "permutations": 100000,
+    "random_seed": 42,
+    "normalization_conventions": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "statistical_tests": [
+      "Exact divisibility test",
+      "Permutation test (100k iterations)",
+      "Bonferroni family-wise error correction",
+      "Benjamini-Hochberg FDR correction",
+      "Cross-normalization robustness test"
+    ],
+    "confidence_scoring": {
+      "base_verified": 0.5,
+      "remainder_zero": 0.2,
+      "p_less_0.001": 0.15,
+      "p_less_0.01": 0.1,
+      "p_less_0.05": 0.05,
+      "bonferroni_sig": 0.1,
+      "bh_fdr_sig": 0.05,
+      "normalization_robust": 0.1,
+      "max_score": 1.0
+    },
+    "classification_thresholds": {
+      "STRONG": ">= 0.70",
+      "WEAK": ">= 0.40",
+      "REJECTED": "< 0.40"
+    }
+  }
+}

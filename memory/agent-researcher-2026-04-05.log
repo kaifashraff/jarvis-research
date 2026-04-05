@@ -1,0 +1,30 @@
+
+[2026-04-05 09:42 PM IST] 🔍 Researcher Agent STARTED — Competitor & trend intelligence
+  ⏳ Next research cycle in 10 min... (cycle 1)
+
+
+[2026-04-05 09:45 PM IST] 🔍 Researcher Agent STARTED — Competitor & trend intelligence
+  ⏳ Next research cycle in 10 min... (cycle 2)
+
+  ⏳ Next research cycle in 10 min... (cycle 2)
+
+  ⏳ Next research cycle in 10 min... (cycle 3)
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.openclaw/workspace/agents/researcher-agent.py", line 95, in <module>
+Traceback (most recent call last):
+  File "/home/ubuntu/.openclaw/workspace/agents/researcher-agent.py", line 95, in <module>
+    main()
+    main()
+  File "/home/ubuntu/.openclaw/workspace/agents/researcher-agent.py", line 92, in main
+  File "/home/ubuntu/.openclaw/workspace/agents/researcher-agent.py", line 92, in main
+    time.sleep(1)
+    time.sleep(1)
+  File "/home/ubuntu/.openclaw/workspace/agents/researcher-agent.py", line 15, in shutdown
+  File "/home/ubuntu/.openclaw/workspace/agents/researcher-agent.py", line 15, in shutdown
+    global running; running = False; sys.exit(0)
+                                     ^^^
+    global running; running = False; sys.exit(0)
+                                     ^^^
+NameError: name 'sys' is not defined. Did you forget to import 'sys'?
+NameError: name 'sys' is not defined. Did you forget to import 'sys'?
