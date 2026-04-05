@@ -1,0 +1,8 @@
+.openclaw/openclaw.json
+.secrets/
+node_modules/
+.env
+*.pem
+__pycache__/
+.openclaw/secrets/
+.clawhub/
