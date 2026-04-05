@@ -1,51 +1,14 @@
 {
-  "timestamp": "2026-04-05 21:07 UTC",
+  "timestamp": "2026-04-05 21:10:01 UTC",
   "swarm_name": "Quran_Code_19_Verification",
-  "status": "PAUSED - Critical Dataset Corruption",
-  "monitoring": "active (cron every 10 min)",
-  "monitor_script": "/home/ubuntu/scripts/quran-19-swarm-monitor.sh",
-  "github_repo": "kaifashraff/jarvis-research",
-  "auto_push": true,
-  
-  "dataset_status": {
-    "integrity": "FAILED",
-    "score": "38.25/100",
-    "uthmani_lines": 34,
-    "simple_lines": 34,
-    "expected_lines": 6236,
-    "missing_ayahs": 6202,
-    "missing_surahs": 111,
-    "data_loss_percent": "99.5%"
-  },
-  
-  "agents_deployed": 9,
-  "agents_completed": {
-    "count": 5,
-    "agents": [1, 2, 4, 8, 9]
-  },
-  "agents_failed": {
-    "count": 3,
-    "agents": [3, 5, 7],
-    "reason": "API rate limits"
-  },
-  "agents_not_yet_started": {
-    "count": 1,
-    "agents": [6]
-  },
-  
-  "findings": {
-    "claims_tested": 5,
-    "claims_accepted_provisional": 1,
-    "claims_rejected": 4,
-    "rejection_rate": "80%",
-    "validity": "PROVISIONAL - needs dataset fix and re-verification"
-  },
-  
-  "next_actions": [
-    "Fix dataset - download complete Tanzil Uthmani v202407",
-    "Re-verify all 5 claims on complete dataset",
-    "Re-validate the 1 accepted pattern with full text",
-    "Update evidence ledger with fresh results",
-    "Push corrected report to GitHub"
-  ]
+  "monitor_cycle": "21:10",
+  "active_sessions": 0
+0,
+  "data_status": "CORRUPTED - Only 34 of 6236 lines",
+  "uthmani_lines": 34,
+  "simple_lines": 34,
+  "expected_lines": 6236,
+  "completed_reports": 5,
+  "rejection_analysis_files": 4,
+  "findings_summary": "1 pattern survives (Surah 74:30). 80% rejection rate for Code 19 claims. Dataset corruption detected - integrity score 38.25/100."
 }
