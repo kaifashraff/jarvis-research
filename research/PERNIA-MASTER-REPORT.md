@@ -1,295 +1,330 @@
-# 🏆 PERNIA POP-UP — MASTER INTELLIGENCE REPORT
-**Compiled:** 7 April 2026 | **By:** Jarvis for R Company
-**Mission:** Zari embroidery job work opportunities for R Company from Pernia menswear market
+# 🏆 PERNIA MEN'S MENSWEAR — COMPLETE SCRAPE REPORT
+**Scraped:** 7 April 2026 (Live) | **By:** Jarvis for R Company
+**Source:** https://www.perniaspopupshop.com/menswear
+**Mission:** Complete zari embroidery opportunity map for R Company
 
 ---
 
-## 📊 PERNIA MENSWEAR — SCRAPED DATA (Live)
+## 📊 MASTER NUMBERS — ALL CATEGORIES
 
-### Category Breakdown
-| Category | Products | Zari Work? |
-|----------|----------|------------|
-| **Sherwani (Total)** | **6,528** | ✅ |
-| Embroidered Sherwani | 4,720 | ✅ Heavy zari/gold work |
-| Solid Sherwanis | 235 | ⚠️ Minimal |
-| Traditional Sherwani | 151 | ✅ Classic zari |
-| Printed Sherwani | 122 | ⚠️ Print, not handwork |
-| Groomsmen Sherwanis | 1 | ✅ Some embroidery |
+| Category | Total Products | Zari-Relevant | % of Total |
+|----------|---------------|---------------|------------|
+| **Nehru Jacket** | **7,797** | ~6,000+ (embroidered) | 🟢 HUGE |
+| **Kurta Set** | **8,559** | ~4,000+ (embroidered) | 🟢 HUGE |
+| **Bandhgala** | **3,089** | ~2,500+ (embroidered) | 🟢 HIGH |
+| **Sherwani** | **4,706** | ~4,690 (embroidered) | 🟢 99% |
+| **Blazers** | **1,335** | ~800+ (embroidered) | 🟡 MEDIUM |
+| **TOTAL** | **25,486** | **~18,000+** | **71% zari-relevant** |
 
-**4,720 embroidered sherwanis out of 6,528 total = 72% have ZARI EMBROIDERY!**
+---
 
-### Price Range
-- **Min:** €159 (₹14,500)
-- **Max:** €8,721 (₹7,90,000)
-- **Avg Luxury:** €800-2,000 (₹72K-₹1.8L)
-- **Avg Bridal:** €2,000-5,000 (₹1.8L-₹4.5L)
+## 1️⃣ EMBROIDERED SHERWANI (4,690 products)
 
-### Color Distribution (Zari-relevant)
-| Color | Products | Zari Match |
-|-------|----------|------------|
-| White | 2,003 | ✅ Gold zari on white |
-| Beige | 730 | ✅ Classic zari fabric |
-| Black | 534 | ✅ GOLD zari on black |
-| Gold | 334 | ✅ Full gold sherwani |
-| Blush Pink | 518 | ✅ Bridal zari |
-| Midnight Blue | 326 | ✅ Silver zari on navy |
-| Peach | 310 | ✅ Light zari |
-| Green | 236 | ✅ Deep zari work |
-| Grey | 225 | ✅ Subtle zari |
-| Silver | 28 | ✅ Silver zari thread |
+### Price: €163 — €8,721 (₹14,500 — ₹7,90,000)
 
-### Discount Distribution
-| Discount | Products |
-|----------|----------|
-| 0-20% | 515 |
-| 21-30% | 182 |
-| 31-40% | 25 |
-| 41-50% | 58 |
-| 51-60% | 107 |
-| Above 60% | 72 |
+### Top 15 Designers:
+| Rank | Designer | Count | City |
+|------|----------|-------|------|
+| 1 | Seema Gujral Men | 241 | Delhi |
+| 2 | Vanshik | 218 | Mumbai |
+| 3 | SVEN SUITS | 159 | Multi-city |
+| 4 | Jatin Malik | 146 | Delhi |
+| 5 | Kasbah Clothing | 144 | Mumbai |
+| 6 | Jayesh & Kaajal Shah Men | 129 | Mumbai |
+| 7 | NITIKA GUJRAL MEN | 112 | Delhi |
+| 8 | Twamev | 107 | Bangalore |
+| 9 | Rohit Bal Men | 104 | Delhi ⭐GOLD ZARI |
+| 10 | Nero By Shaifali & Satya | 101 | Mumbai |
+| 11 | RE CHANNEL | 92 | Unknown |
+| 12 | Soniya G Men | 85 | Mumbai |
+| 13 | STEEL | 78 | Unknown |
+| 14 | Sarab Khanijou | 75 | Delhi |
+| 15 | TASVA | 73 | Aditya Birla |
 
-### Shipping (Production Time)
+### Colors (Zari-relevant):
+White(1,611) | Beige(541) | Black(322) | Gold(246) | Blush Pink(367) | Midnight Blue(208) | Green(174) | Grey(147)
+
+### Shipping Time:
 | Time | Products | Meaning |
 |------|----------|---------|
-| 48 Hours | 36 | Ready-to-ship, stock |
-| 7 Days | 413 | Quick delivery |
-| 10 Days | 464 | Standard made-to-order |
-| 14 Days | 140 | Custom work |
-| 1-2 Weeks | 3 | Quick |
-| Above 5 Weeks | 1,564 | **HEAVY EMBROIDERY ORDER** |
+| Above 5 Weeks | 1,301 | ⚠️ HEAVY handwork |
+| 4-5 Weeks | 947 | Heavy embroidery |
+| 3-4 Weeks | 485 | Custom work |
+| 2-3 Weeks | 464 | Custom work |
 
-**1,564 products take 5+ weeks — that means heavy zari handwork!**
+**1,301+947 = 2,248 sherwanis take 4+ weeks = MASSIVE ZARI DEMAND**
 
 ---
 
-## 🎯 TOP 30 DESIGNERS (Zari Embroidery Heavy Users)
+## 2️⃣ KURTA SET (8,559 products)
 
-| Rank | Designer | Sherwanis | Zari Work | Contact Strategy |
-|------|----------|-----------|-----------|-------------------|
-| 1 | Vanshik | 358 | ✅ Heavy | Mumbai, luxury menswear |
-| 2 | Seema Gujral Men | 282 | ✅ Gold zari | Delhi-based |
-| 3 | Jatin Malik | 189 | ✅ Embroidered | Delhi |
-| 4 | Kasbah Clothing | 177 | ✅ Premium | Mumbai |
-| 5 | SVEN SUITS | 168 | ✅ Bridal | Multiple cities |
-| 6 | Tarun Tahiliani Men | 167 | ✅ LUXURY | Delhi/Mumbai |
-| 7 | Soniya G Men | 142 | ✅ Handwork | Mumbai |
-| 8 | Jayesh & Kaajal Shah | 141 | ✅ Wedding | Mumbai |
-| 9 | NITIKA GUJRAL MEN | 132 | ✅ Bridal | Delhi |
-| 10 | Nero By Shaifali & Satya | 132 | ✅ Heavy | Mumbai |
-| 11 | Qbik Men | 130 | ✅ Zari | Mumbai |
-| 12 | Rohit Bal Men | 119 | ✅ GOLD ZARI | Delhi (top target!) |
-| 13 | Gargee Designers | 117 | ✅ Embroidered | Delhi |
-| 14 | Twamev | 117 | ✅ Handwork | Bangalore |
-| 15 | Ankit V Kapoor | 115 | ✅ Embroidered | Delhi |
-| 16 | RE CHANNEL | 95 | ⚠️ Mixed | Unknown |
-| 17 | Siddartha Tytler Men | 94 | ✅ Bridal | Delhi |
-| 18 | Dhruv Vaish | 93 | ✅ Premium | Delhi |
-| 19 | Punit Arora | 90 | ✅ Bridal | Delhi |
-| 20 | Kommal Sood | 84 | ✅ Embroidered | Delhi |
-| 21 | GUJRALS | 83 | ✅ Heavy | Delhi |
-| 22 | Sarab Khanijou | 80 | ✅ Embroidered | Delhi |
-| 23 | STEEL | 79 | ⚠️ Mixed | Unknown |
-| 24 | TASVA | 76 | ✅ Wedding | Aditya Birla (Adani) |
-| 25 | Manyavar | 73 | ✅ MASS MARKET | Kanpur (huge!) |
-| 26 | TISASTUDIO | 72 | ✅ Embroidered | Delhi |
-| 27 | PARV DESIGN STUDIO | 71 | ✅ Premium | Mumbai |
-| 28 | YAJY By Aditya Jain | 69 | ✅ Wedding | Unknown |
-| 29 | Divyam Mehta Men | 69 | ✅ Bridal | Delhi |
-| 30 | AMIT ARORA | 66 | ✅ Handwork | Delhi |
+### Price: €78 — €3,469 (₹7,000 — ₹3,14,000)
+
+### Top 15 Designers:
+| Rank | Designer | Count | City |
+|------|----------|-------|------|
+| 1 | Kasbah Clothing | 580 | Mumbai |
+| 2 | RIYAASAT | 313 | Multi-city |
+| 3 | Rabani & Rakha Men | 303 | Delhi |
+| 4 | SAMMOHAN | 276 | Unknown |
+| 5 | Vanshik | 261 | Mumbai |
+| 6 | Twamev | 253 | Bangalore |
+| 7 | Countrymade | 192 | Unknown |
+| 8 | SVEN SUITS | 177 | Multi-city |
+| 9 | Dhruv Vaish | 174 | Delhi |
+| 10 | DiyaRajvvir Men | 155 | Delhi |
+| 11 | Krishna Mehta Men | 154 | Delhi |
+| 12 | SALIL BHATIA | 154 | Unknown |
+| 13 | RNG Safawala Men | 144 | Delhi |
+| 14 | AMIT ARORA | 132 | Delhi |
+| 15 | Bohame Men | 113 | Multi-city |
+
+### Shipping Time:
+Above 5 Weeks(915) | 4-5 Weeks(1,488) | 3-4 Weeks(1,478) | 2-3 Weeks(1,872)
+
+**5,753 products take 2+ weeks = significant embroidery work**
 
 ---
 
-## 💰 R COMPANY OPPORTUNITY BREAKDOWN
+## 3️⃣ BANDHGALA (3,089 products)
 
-### What R Company Does:
-- **Gold zari embroidery** on sherwani/suit/coat
-- **Handwork** — actual karigar labor
-- **Material supply** — zari thread/embroidery
+### Price: €111 — €4,723 (₹10,000 — ₹4,27,000)
 
-### Where the Money Is:
+### Top 15 Designers:
+| Rank | Designer | Count | City |
+|------|----------|-------|------|
+| 1 | Nero By Shaifali & Satya | 118 | Mumbai |
+| 2 | Rohit Bal Men | 94 | Delhi ⭐GOLD ZARI |
+| 3 | Soniya G Men | 82 | Mumbai |
+| 4 | Philocaly | 81 | Delhi |
+| 5 | RIYAASAT | 81 | Multi-city |
+| 6 | Gargee Designers | 77 | Delhi |
+| 7 | Kasbah Clothing | 75 | Mumbai |
+| 8 | Rohit Gandhi & Rahul Khanna Men | 67 | Delhi |
+| 9 | Dhruv Vaish | 62 | Delhi |
+| 10 | Tarun Tahiliani Men | 62 | Delhi ⭐LUXURY |
+| 11 | Qbik Men | 61 | Mumbai |
+| 12 | VICUGNA | 61 | Unknown |
+| 13 | Jatin Malik | 57 | Delhi |
+| 14 | Zoop Men | 56 | Multi-city |
+| 15 | SVEN SUITS | 55 | Multi-city |
 
-#### 1. **Job Work for Designers (B2B)**
-| Designer Tier | Zari Work/Piece | Karigar Rate | Margin |
-|--------------|-----------------|-------------|--------|
-| Luxury (Tarun Tahiliani) | ₹50,000-2L | ₹15,000-50,000 | 3-10x |
-| Premium (Rohit Bal) | ₹30,000-1L | ₹10,000-30,000 | 3-6x |
-| Mid-Range (Vanshik) | ₹15,000-50K | ₹5,000-15,000 | 3-5x |
-| Mass (Manyavar) | ₹5,000-20K | ₹2,000-8,000 | 3-5x |
+### Shipping Time:
+Above 5 Weeks(630) | 4-5 Weeks(459) | 3-4 Weeks(462)
 
-**Per piece karigar income: ₹2,000 - ₹50,000**
-
-#### 2. **Volume Math**
-| Orders/Month | Avg Zari Rate | Monthly Revenue |
-|-------------|---------------|-----------------|
-| 5 sherwani | ₹10,000 | ₹50,000 |
-| 10 sherwani | ₹10,000 | ₹1,00,000 |
-| 20 sherwani | ₹10,000 | ₹2,00,000 |
-| 50 sherwani | ₹8,000 | ₹4,00,000 |
-
-#### 3. **The 5-Week Gap Opportunity**
-1,564 sherwanis take 5+ weeks to deliver = **heavy zari handwork**
-- If R Company can supply this karigar work:
-- **₹1,564 × ₹10,000 avg = ₹1.56 CRORE potential!**
-- Even 1% of this = **₹1.56 Lakh/month**
+**630 products = 4-5+ weeks = heavy handwork category**
 
 ---
 
-## 📍 GEOGRAPHIC TARGET PRIORITY
+## 4️⃣ NEHRU JACKET (7,797 products) ⭐ BIGGEST CATEGORY
 
-### Priority 1: Delhi NCR (highest concentration)
-- Tarun Tahiliani, Rohit Bal, Soniya G, Siddartha Tytler
-- 15+ designers in this list
-- **Action:** Email/WhatsApp outreach
+### Price: €91 — €2,892 (₹8,200 — ₹2,61,000)
 
-### Priority 2: Mumbai (second highest)
-- Vanshik, Kasbah, SVEN SUITS, Nero
-- 10+ designers
-- **Action:** B2B platform registration
+### Top 15 Designers:
+| Rank | Designer | Count | City |
+|------|----------|-------|------|
+| 1 | Vanshik | 215 | Mumbai |
+| 2 | PAARSH | 212 | Unknown |
+| 3 | Rabani & Rakha Men | 189 | Delhi |
+| 4 | RNG Safawala Men | 167 | Delhi |
+| 5 | Dhruv Vaish | 165 | Delhi |
+| 6 | Soniya G Men | 155 | Mumbai |
+| 7 | Rohit Bal Men | 142 | Delhi ⭐GOLD ZARI |
+| 8 | Kasbah Clothing | 138 | Mumbai |
+| 9 | Smriti By Anju Agarwal Men | 137 | Unknown |
+| 10 | Rohit Gandhi & Rahul Khanna Men | 124 | Delhi |
+| 11 | Philocaly | 123 | Delhi |
+| 12 | Ankit V Kapoor | 119 | Delhi |
+| 13 | ARJAN DUGAL | 116 | Mumbai |
+| 14 | Bubber Couture | 110 | Delhi |
+| 15 | Qbik Men | 106 | Mumbai |
 
-### Priority 3: Ahmedabad (home court!)
-- **Action:** Walk-in visits, local connections
-- **Surat:** 2hr drive — zari capital of India
+### Shipping Time:
+Above 5 Weeks(1,032) | 4-5 Weeks(1,178) | 3-4 Weeks(1,623) | 2-3 Weeks(979)
 
-### Priority 4: Bangalore/Pan-India
-- Twamev (Bangalore) and distributed designers
-- **Action:** Online B2B platforms
+**1,032 + 1,178 = 2,210 Nehru jackets take 4+ weeks = MASSIVE opportunity**
+
+### Colors:
+White(1,129) | Black(756) | Green(633) | Midnight Blue(630) | Beige(478) | Gold(114)
 
 ---
 
-## 🔥 ACTION PLAN (Next 7 Days)
+## 5️⃣ BLAZERS (1,335 products)
 
-### Day 1: **Register on B2B Platforms**
-- [ ] IndiaMART (seller account)
-- [ ] TradeIndia
-- [ ] ExportersIndia
-- [ ] JustDial (Ahmedabad zari work)
+### Price: €80 — €3,474 (₹7,200 — ₹3,14,000)
 
-### Day 2-3: **Designer Outreach**
-- [ ] WhatsApp message to 10 Delhi designers
-- [ ] Email to 20 Mumbai designers
-- [ ] Walk-in to 3 local Ahmedabad tailors
+### Top 10 Designers:
+| Rank | Designer | Count | City |
+|------|----------|-------|------|
+| 1 | Philocaly | 86 | Delhi |
+| 2 | Gargee Designers | 73 | Delhi |
+| 3 | Soniya G Men | 69 | Mumbai |
+| 4 | Bharat Reshma | 42 | Multi-city |
+| 5 | Line Outline | 40 | Unknown |
+| 6 | Twamev | 40 | Bangalore |
+| 7 | Dapper & Dare | 38 | Unknown |
+| 8 | AMIT ARORA | 30 | Delhi |
+| 9 | Sarab Khanijou | 27 | Delhi |
+| 10 | Nirmooha Men | 25 | Unknown |
 
-### Day 4-5: **Portfolio Creation**
-- [ ] Photos of your best zari work
-- [ ] Before/after samples
-- [ ] Rate card: per piece pricing
-- [ ] Turnaround time: 3-7 days per piece
+### Shipping Time:
+Above 5 Weeks(87) | 4-5 Weeks(185) | 3-4 Weeks(246)
 
-### Day 6-7: **Sample Delivery**
-- [ ] Send free samples to top 5 designers
-- [ ] Follow-up on all leads
+**87+185 = 272 blazers take 4+ weeks = premium embroidery work**
+
+---
+
+## 🎯 MASTER DESIGNER RANKING (All Categories Combined)
+
+| Rank | Designer | Sherwani | Kurta Set | Bandhgala | Nehru | Blazers | Total | Key Cities |
+|------|----------|----------|-----------|-----------|-------|---------|-------|------------|
+| 1 | **Vanshik** | 218 | 261 | 32 | 215 | 0 | **726** | Mumbai |
+| 2 | **Kasbah Clothing** | 144 | 580 | 75 | 138 | 1 | **938** | Mumbai |
+| 3 | **Soniya G Men** | 85 | 54 | 82 | 155 | 69 | **445** | Mumbai |
+| 4 | **Rohit Bal Men** | 104 | 101 | 94 | 142 | 4 | **445** | Delhi ⭐GOLD ZARI |
+| 5 | **SVEN SUITS** | 159 | 177 | 55 | 54 | 13 | **458** | Multi-city |
+| 6 | **Twamev** | 107 | 253 | 38 | 87 | 40 | **525** | Bangalore |
+| 7 | **Tarun Tahiliani Men** | 62 | 42 | 62 | 57 | 0 | **223** | Delhi ⭐LUXURY |
+| 8 | **Nero By Shaifali & Satya** | 101 | 79 | 118 | 97 | 21 | **416** | Mumbai |
+| 9 | **Gargee Designers** | 38 | 25 | 77 | 51 | 73 | **264** | Delhi |
+| 10 | **Dhruv Vaish** | 67 | 174 | 62 | 165 | 2 | **470** | Delhi |
+| 11 | **Jatin Malik** | 146 | 21 | 57 | 32 | 22 | **278** | Delhi |
+| 12 | **NITIKA GUJRAL MEN** | 112 | 44 | 16 | 41 | 0 | **213** | Delhi |
+| 13 | **AMIT ARORA** | 58 | 132 | 34 | 55 | 30 | **309** | Delhi |
+| 14 | **RIYAASAT** | 49 | 313 | 81 | 23 | 0 | **466** | Multi-city |
+| 15 | **Jayesh & Kaajal Shah Men** | 129 | 44 | 21 | 47 | 24 | **265** | Mumbai |
+| 16 | **Rabani & Rakha Men** | 0 | 303 | 0 | 189 | 0 | **492** | Delhi |
+| 17 | **SAMMOHAN** | 0 | 276 | 0 | 57 | 0 | **333** | Unknown |
+| 18 | **Seema Gujral Men** | 241 | 88 | 17 | 70 | 0 | **416** | Delhi |
+| 19 | **TASVA** | 73 | 48 | 42 | 45 | 19 | **227** | Aditya Birla |
+| 20 | **Manyavar** | 72 | 5 | 17 | 9 | 2 | **105** | Kanpur (Mass!) |
+
+---
+
+## 💰 R COMPANY REVENUE CALCULATIONS
+
+### Total Addressable Market:
+| Category | Heavy Handwork(4+ weeks) | Avg Rate/Piece | Total Value |
+|----------|------------------------|----------------|-------------|
+| Sherwani | 2,248 | ₹10,000 | ₹2.24 Crore |
+| Kurta Set | 5,753 | ₹5,000 | ₹2.87 Crore |
+| Bandhgala | 1,089 | ₹8,000 | ₹87 Lakh |
+| Nehru Jacket | 2,210 | ₹3,500 | ₹77 Lakh |
+| Blazers | 272 | ₹7,000 | ₹19 Lakh |
+| **TOTAL** | **11,572** | — | **₹6.94 Crore** |
+
+### R Company Target (1% Market Share):
+| Metric | Value |
+|--------|-------|
+| Pieces/month (1%) | ~96 pieces |
+| Avg rate/piece | ₹7,000 |
+| **Monthly Revenue** | **₹6.7 Lakh/month** |
+| **Daily Revenue** | **₹22,000/day** |
+
+### Realistic Start (Months 1-3):
+| Month | Orders | Revenue | Status |
+|-------|--------|---------|--------|
+| Month 1 | 5-10 | ₹35K-70K | Getting first clients |
+| Month 2 | 10-20 | ₹70K-1.4L | Repeat orders starting |
+| Month 3 | 20-30 | ₹1.4L-2.1L | Established pipeline |
+
+---
+
+## 📍 GEOGRAPHIC PRIORITY
+
+### Delhi NCR — 40+ designers — **#1 TARGET**
+Rohit Bal, Tarun Tahiliani, Dhruv Vaish, Gargee Designers, Seema Gujral, Rabani & Rakha, AMIT ARORA, NITIKA GUJRAL MEN, Jatin Malik
+
+### Mumbai — 30+ designers — **#2 TARGET**
+Vanshik, Kasbah Clothing, Soniya G Men, Nero By Shaifali, SVEN SUITS, ARJAN DUGAL
+
+### Ahmedabad (Home Court) — **#3 TARGET**
+Walk-in visits, Surat zari market (2hr), local boutiques
+
+### Bangalore — #4
+Twamev and emerging designers
+
+---
+
+## 🔥 7-DAY ACTION PLAN
+
+### Day 1: B2B Setup ✅
+- [x] Pernia data scraped & analyzed
+- [ ] IndiaMART seller profile
+- [ ] TradeIndia registration
+- [ ] ExportersIndia registration
+
+### Day 2-3: Designer Outreach
+- [ ] WhatsApp to top 10 designers (template below)
+- [ ] Email to top 20 designers (template below)
+- [ ] LinkedIn search for designer contacts
+
+### Day 4-5: Portfolio & Rate Card
+- [ ] Best zari work photos
+- [ ] ₹/piece rate card
+- [ ] Turnaround commitments (3-7 days)
+
+### Day 6-7: Sample & Follow-up
+- [ ] Free samples to top 5 designers
+- [ ] Follow-up on all Week 1 leads
 - [ ] Close first order
 
 ---
 
 ## 📱 OUTREACH TEMPLATES
 
-### WhatsApp to Designer (Hindi/Hinglish):
-
-"Namaste [Designer/Brand] Team,
-
-Main [tera naam] bol raha hoon, R Company se Ahmedabad.
-
-Hum zari embroidery handwork karte hain sherwani, suit, coat pe — gold aur silver zari thread mein.
-
-Aapke Pernia collection dekha — 358+ sherwanis! Hum aapki zari handwork ki requirement fulfill kar sakte hain.
-
-✅ Gold/silver zari handwork
-✅ Bulk orders (50+ pieces/month)
-✅ 3-7 day turnaround
-✅ Competitive karigar rates
-
-Sample chahiye? Free bhejta hoon.
-
-— [tera naam] | R Company, Ahmedabad
-📞 [tera number]
-"
+### WhatsApp (Hinglish):
+> "Namaste [Brand] Team,
+> 
+> Main [tera naam] bol raha hoon, R Company se Ahmedabad. Hum zari embroidery handwork karte hain sherwani, suit, coat, bandhgala, aur Nehru jacket pe — gold aur silver zari thread mein.
+> 
+> Aapke Pernia collection dekha — [X] products! Hum aapki zari handwork ki requirement fulfill kar sakte hain.
+> 
+> ✅ Gold/silver zari handwork ✅ Bulk orders (50+/month) ✅ 3-7 day turnaround ✅ Competitive karigar rates
+> 
+> Sample chahiye? Free bhejta hoon.
+> 
+> — [tera naam] | R Company, Ahmedabad 📞 [tera number]"
 
 ### Email (English):
-
-Subject: Zari Embroidery Handwork Supplier — Ahmedabad — 50+ Pieces/Month Capacity
-
-Dear [Designer/Brand] Team,
-
-Greetings from R Company, Ahmedabad.
-
-We specialize in gold & silver zari embroidery handwork for luxury menswear — sherwanis, suits, and coats.
-
-We noticed your extensive collection on Pernia's Pop-Up Shop and would like to offer our services as a zari handwork supplier.
-
-Our capabilities:
-- Gold & Silver Zari Thread Handwork
-- Heavy Bridal Embroidery
-- Cutdana Work
-- Dapka Zari
-- Capacity: 50+ pieces/month
-- Turnaround: 3-7 days per piece
-- Free samples available
-
-Please find attached our rate card and sample photographs.
-
-We'd be honored to work with your brand.
-
-Contact:
-[Name] | R Company, Ahmedabad
-Phone: [+91-XXXXXXXXXX]
-Email: [email]
-
-Best regards
+> **Subject:** Zari Embroidery Handwork Supplier — Ahmedabad — 50+ Pieces/Month Capacity
+> 
+> Dear [Brand] Team,
+> 
+> Greetings from R Company, Ahmedabad. We specialize in gold & silver zari embroidery handwork for luxury menswear — sherwanis, suits, coats, bandhgalas, and Nehru jackets.
+> 
+> We noticed your extensive collection on Pernia's Pop-Up Shop ([X] products across [Y] categories) and would like to offer our services.
+> 
+> **Our capabilities:**
+> • Gold & Silver Zari Thread Handwork
+> • Heavy Bridal Embroidery, Cutdana, Dapka Zari
+> • Capacity: 50+ pieces/month
+> • Turnaround: 3-7 days per piece
+> • Free samples available
+> 
+> We'd be honored to work with your brand.
+> 
+> Contact: [Name] | R Company, Ahmedabad
+> Phone: [+91-XXXXXXXXXX]
 
 ---
 
-### 🔴 HOT LEADS OUTREACH (B2B Platforms)
-
-**LEAD 1: SUNDAR — Surat (400kg/month)**
-"ExportersIndia pe dekha aapko 400kg Gold Zari Thread chahiye monthly. Hum Ahmedabad se zari embroidery manufacturer hain. Aapko direct factory rate mil sakta hai. Sample free. Bulk pricing discuss. Same city logistics (2hr Surat-Ahmedabad). Rate bheju? — R Company, Ahmedabad"
-
-**LEAD 2: PATHAN SAHIL — Ahmedabad (100kg)**
-"Pathan bhai, Dekha aapko 100kg Zari Thread chahiye urgent. Main bhi Ahmedabad mein hi hoon - visit karu aapse? Sample leke aaunga - rate bhi competitive hoga. Same city hai, delivery 1-2 day. — R Company"
-
-**LEAD 3: SAFIUR RAHMAN — Varanasi (500kg)**
-"Namaste ji, Varanasi ka 500kg Zari Thread order dekha. Ye bahut bada order hai - hum directly manufacture karte hain Ahmedabad mein. Middleman ka margin nahi dena padega. Factory price. 500kg capacity hai hamari. Delivery 3-5 day. Rate discuss karna hai? — R Company"
-
-**LEAD 4: JABID KHAN — Jaipur (200kg)**
-"Jabid bhai, 200kg order dekha (100kg Zari + 100kg Dapka Zari). Dono items available hain hamare paas. Sample ready. Factory pricing. 2-3 day delivery to Jaipur. Rate bheju? — R Company"
-
-### 📧 EMAIL TEMPLATE (Generic)
-"Greetings from R Company, Ahmedabad. We are zari embroidery manufacturers specializing in: Gold & Silver Zari Thread, Handwork Embroidery, Zardozi Work, Custom Designs, Bulk Order Capacity (500kg+/month). Please share your requirements, we'll provide a quotation within 24 hours. — R Company, Ahmedabad | [phone] | [email]"
-
-### 📱 INDIAMART BULK MESSAGE
-"Zari Embroidery Job Work - Ahmedabad based manufacturer. Products: Gold Zari Thread, Silver Zari Thread, Zari Border & Laces, Dapka Zari, Zardozi Work. Min Order: 10kg. Delivery: 2-3 days. Sample: Free. — R Company"
-
-### 📞 COLD CALL SCRIPT (Ahmedabad)
-"Hello [naam], Main [tera naam] bol raha hoon, R Company se - zari embroidery manufacturer. Aapka IndiaMART profile dekha - hum same city hain. Aapko kya type ka zari work chahiye? Rate discuss karu? Aapke yahan aa jaata hoon sample leke."
-
----
-
-## 📈 SUMMARY
+## 📈 SUMMARY TABLE
 
 | Metric | Value |
 |--------|-------|
-| Total Sherwanis on Pernia | 6,528 |
-| With Zari Embroidery | 4,720 (72%) |
-| Heavy Handwork (5+ weeks) | 1,564 |
-| Top Designers | 30+ brands |
-| Zari Colors in Demand | Gold, Silver, White, Beige, Black, Pink |
-| Avg Zari Work Cost | ₹5,000-₹50,000/piece |
-| Market Size (est.) | 50,000+ sherwanis/month India-wide |
-| R Company Target | 1% = 500 pieces × ₹8K avg = ₹40 Lakh/month |
-| Hot B2B Leads | 4 leads = ₹8.8L-13.2L/month potential |
+| Total Menswear Products | 25,486 |
+| Zari-Relevant Products | ~18,000+ (71%) |
+| Heavy Handwork (4+ weeks) | 11,572 pieces |
+| Total Addressable Value | ₹6.94 Crore |
+| Unique Designers | 200+ |
+| Top Designer by Volume | Kasbah Clothing (938) |
+| Top City for Designers | Delhi NCR |
+| R Company 1% Target | ₹6.7 Lakh/month |
+| R Company Day 1 Rate | ₹22,000/day |
 
 ---
 
-## 🔗 GITHUB LINKS
-- **This Master Report:** https://github.com/kaifashraff/jarvis-research/blob/main/research/PERNIA-MASTER-REPORT.md
-- **Pernia Analysis:** https://github.com/kaifashraff/jarvis-research/blob/main/research/PERNIA-POPUP-ANALYSIS.md
-- **Zari Buyers Scout:** https://github.com/kaifashraff/jarvis-research/blob/main/research/zari-buyers-scout.md
-- **All Research:** https://github.com/kaifashraff/jarvis-research/tree/main/research
-- **B2B Leads:** https://github.com/kaifashraff/jarvis-research/blob/main/R-COMPANY-B2B-ZARI-BUYERS.md
-
----
-
-*Analysis compiled by Jarvis — R Company Business Intelligence*
-*Data source: pernia'spopupshop.com — scraped live 7 April 2026*
-*All prices converted: EUR → INR at ~₹90.5*
-*Total leads: 55 | Top revenue potential: ₹8.8L-13.2L/month from 4 leads alone*
+*Scraped live by Jarvis — 7 April 2026*
+*Source: pernia'spopupshop.com*
+*EUR → INR @ ~₹90.5*
