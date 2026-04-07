@@ -1,11 +1,11 @@
 {
   "last_gold_price": null,
   "last_silver_price": null,
-  "last_market_trend": "**1) Gold/Silver Prices:**\n- Gold: Trading at \u20b96,200-6,300/g (MCX), near record highs due to global uncertainty & central bank buying. Silver: \u20b975,000-77,000/kg (MCX), volatile due to industrial deman",
+  "last_market_trend": "**1) Gold/Silver Prices:**\n- Gold: Currently trading at ~\u20b96,950/gram (up ~1.5% MoM), driven by global safe-haven demand (geopolitical tensions, Fed rate cut expectations).\n- Silver: ~\u20b982,000/kg (flat ",
   "last_content_trend": null,
   "alerts_today": 0,
-  "cycles": 3440,
+  "cycles": 3623,
   "errors": 0,
   "started": "2026-04-05 09:34 PM IST",
-  "last_updated": "2026-04-07 05:29 AM IST"
+  "last_updated": "2026-04-07 07:09 AM IST"
 }
