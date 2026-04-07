@@ -1,11 +1,11 @@
 {
   "last_gold_price": null,
   "last_silver_price": null,
-  "last_market_trend": "**1) Gold/Silver Prices (Affects Real Zari):**\n- Gold: \u20b96,950\u2013\u20b97,000/gram (MCX), stable near record highs due to global uncertainty.\n- Silver: \u20b982\u2013\u20b985/gram, volatile due to industrial demand and silve",
+  "last_market_trend": "- **Gold/Silver Prices**:\n  - Gold: Currently trading at ~\u20b96,800/g (24K), up ~3% MoM due to global recession fears & central bank buying. Silver: ~\u20b980,000/kg, volatile due to industrial demand shifts.",
   "last_content_trend": null,
   "alerts_today": 0,
-  "cycles": 5244,
+  "cycles": 5427,
   "errors": 0,
   "started": "2026-04-05 09:34 PM IST",
-  "last_updated": "2026-04-07 10:09 PM IST"
+  "last_updated": "2026-04-07 11:49 PM IST"
 }
