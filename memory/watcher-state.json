@@ -1,11 +1,11 @@
 {
   "last_gold_price": null,
   "last_silver_price": null,
-  "last_market_trend": "**1) Gold/Silver Prices:**\n- Gold: Currently trading at ~\u20b972,000/10g (up 15% YoY). Silver at ~\u20b985,000/kg (volatile due to industrial demand).\n- **Impact:** Higher gold prices increase zari demand (as ",
+  "last_market_trend": "**1) Gold/Silver Prices:**\n- Gold: Trading at **\u20b96,500-6,600/g** (steady, slight dip due to global market corrections).\n- Silver: **\u20b975-80/g** (volatile, tracking industrial demand and dollar strength",
   "last_content_trend": null,
   "alerts_today": 0,
-  "cycles": 4529,
+  "cycles": 4706,
   "errors": 0,
   "started": "2026-04-05 09:34 PM IST",
-  "last_updated": "2026-04-07 03:29 PM IST"
+  "last_updated": "2026-04-07 05:09 PM IST"
 }
