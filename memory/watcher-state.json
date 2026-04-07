@@ -1,11 +1,11 @@
 {
   "last_gold_price": null,
   "last_silver_price": null,
-  "last_market_trend": "- **Gold/Silver Prices**: Gold is trading at ~\u20b96,500/g (steady), silver at ~\u20b975,000/kg (volatile due to industrial demand). Real zari costs may rise if silver prices spike further.\n\n- **Indian Textile",
+  "last_market_trend": "**1) Gold/Silver Prices:**\n- Gold: Currently trading at ~\u20b972,000/10g (up 15% YoY). Silver at ~\u20b985,000/kg (volatile due to industrial demand).\n- **Impact:** Higher gold prices increase zari demand (as ",
   "last_content_trend": null,
   "alerts_today": 0,
-  "cycles": 4349,
+  "cycles": 4529,
   "errors": 0,
   "started": "2026-04-05 09:34 PM IST",
-  "last_updated": "2026-04-07 01:49 PM IST"
+  "last_updated": "2026-04-07 03:29 PM IST"
 }
